@@ -1,0 +1,231 @@
+{
+  "Text": {
+    "Default": {
+      "value": "{Grey.Grey1000}",
+      "type": "color",
+      "description": "Use for primary text, such as body copy, sentence case headers, and buttons.",
+      "$extensions": {
+        "studio.tokens": {}
+      }
+    },
+    "Subtle": {
+      "value": "{Grey.Grey800}",
+      "type": "color",
+      "description": "Use for secondary text, such as supporting text and all caps subheadings."
+    },
+    "Subtlest": {
+      "value": "{Grey.Grey600}",
+      "type": "color",
+      "description": "Use for tertiary text, such as meta-data, input field labels  breadcrumbs and helper text "
+    },
+    "Disabled": {
+      "value": "{Grey.Grey400}",
+      "type": "color",
+      "description": "Use for text in a disabled state or/and texts paired with icon.disabled"
+    },
+    "Inverse": {
+      "value": "{Grey.Grey0}",
+      "type": "color",
+      "description": "Use for text on bold backgrounds or/and texts paired with icon.inverse"
+    },
+    "Action": {
+      "value": "{Purple.Purple500}",
+      "type": "color",
+      "description": "Use for tertiary links in a default or hovered state. (Add an underline for hovered states for tertiary links) or texts paired with icon.action"
+    },
+    "Danger": {
+      "value": "{Red.Red500}",
+      "type": "color",
+      "description": "Use for destructive links or to communicate critical information, such as those used in error handling or texts paired with icon.success"
+    },
+    "Warning": {
+      "value": "{Orange.Orange500}",
+      "type": "color",
+      "description": "Use for warning links to communicate caution/warning, such as those used in warning section messages or texts paired with icon.warning"
+    },
+    "Success": {
+      "value": "{Green.Green500}",
+      "type": "color",
+      "description": "Use for warning links to communicate caution/warning, such as those used in warning section messages or texts paired with icon.success"
+    }
+  },
+  "Icon": {
+    "Default": {
+      "value": "{Grey.Grey1000}",
+      "type": "color",
+      "description": "Use for icon-only buttons, or icons paired with color.text.default",
+      "$extensions": {
+        "studio.tokens": {}
+      }
+    },
+    "Subtle": {
+      "value": "{Grey.Grey800}",
+      "type": "color",
+      "description": "Use for icons paired with color.text.subtle or secondary icons"
+    },
+    "Subtlest": {
+      "value": "{Grey.Grey400}",
+      "type": "color",
+      "description": "Use for icons paired with color.text.subtlest or tertiary icons"
+    },
+    "Disabled": {
+      "value": "{Grey.Grey600}",
+      "type": "color",
+      "description": "Use for icons in a disabled state."
+    },
+    "Inverse": {
+      "value": "{Grey.Grey0}",
+      "type": "color",
+      "description": "Use for icons on bold backgrounds."
+    },
+    "Action": {
+      "value": "{Purple.Purple500}",
+      "type": "color",
+      "description": "Use for icons that reinforce our brand or/and icons paired with text.action"
+    },
+    "Danger": {
+      "value": "{Red.Red500}",
+      "type": "color",
+      "description": "Use for icons communicating critical information, such as those used in error handing  or/and icons paired with text.danger"
+    },
+    "Warning": {
+      "value": "{Orange.Orange500}",
+      "type": "color",
+      "description": "Use for icons communicating caution/warning, such as those used in warning section messages  or/and icons paired with text.warning"
+    },
+    "Success": {
+      "value": "{Green.Green500}",
+      "type": "color",
+      "description": "Use for icons communicating a favorable outcome, such as those used in success section messaged  or/and icons paired with text.success"
+    }
+  },
+  "Border": {
+    "Default": {
+      "value": "{Grey.Grey300}",
+      "type": "color",
+      "description": "Use to visually group or separate UI elements, such as flat cards, separators or side panel dividers.",
+      "$extensions": {
+        "studio.tokens": {}
+      }
+    },
+    "Subtle": {
+      "value": "{Grey.Grey200}",
+      "type": "color",
+      "description": "Use to have subtle border/stroke"
+    },
+    "Selected": {
+      "value": "{Grey.Grey800}",
+      "type": "color",
+      "description": "Use to highlight selected input fields"
+    },
+    "Disabled": {
+      "value": "{Grey.Grey400}",
+      "type": "color",
+      "description": "Use for disabled state secondary buttons & icon borders"
+    },
+    "Action": {
+      "value": "{Purple.Purple500}",
+      "type": "color",
+      "description": "Use for icons that reinforce our brand or/and icons paired with text.action"
+    },
+    "Danger": {
+      "value": "{Red.Red500}",
+      "type": "color",
+      "description": "Use for icons communicating critical information, such as those used in error handing  or/and icons paired with text.danger"
+    },
+    "Warning": {
+      "value": "{Orange.Orange500}",
+      "type": "color",
+      "description": "Use for icons communicating caution/warning, such as those used in warning section messages  or/and icons paired with text.warning"
+    },
+    "Success": {
+      "value": "{Green.Green500}",
+      "type": "color",
+      "description": "Use for icons communicating a favorable outcome, such as those used in success section messaged  or/and icons paired with text.success"
+    },
+    "Accent": {
+      "Action": {
+        "value": "{Purple.Purple200}",
+        "type": "color",
+        "description": "Use for secondary icon action button borders with background.accent.action"
+      },
+      "Danger": {
+        "value": "{Red.Red200}",
+        "type": "color",
+        "description": "Use for secondary icon danger button borders with background.accent.danger"
+      },
+      "Warning": {
+        "value": "{Orange.Orange200}",
+        "type": "color",
+        "description": "Use for secondary icon warning button borders with background.accent.warning"
+      },
+      "Success": {
+        "value": "{Green.Green200}",
+        "type": "color",
+        "description": "Use for secondary icon success button borders with background.accent.success"
+      }
+    }
+  },
+  "Background": {
+    "Default": {
+      "value": "{Grey.Grey0}",
+      "type": "color",
+      "description": "Use for background & surfaces only",
+      "$extensions": {
+        "studio.tokens": {}
+      }
+    },
+    "Subtle": {
+      "value": "{Grey.Grey100}",
+      "type": "color",
+      "description": "Use for background & surfaces only (Anything that is above background layer)"
+    },
+    "Disabled": {
+      "value": "{Grey.Grey400}",
+      "type": "color",
+      "description": "Use for disabled state secondary buttons & icon borders"
+    },
+    "Action": {
+      "value": "{Purple.Purple500}",
+      "type": "color",
+      "description": "Use for icons that reinforce our brand or/and icons paired with text.action"
+    },
+    "Danger": {
+      "value": "{Red.Red500}",
+      "type": "color",
+      "description": "Use for icons communicating critical information, such as those used in error handing  or/and icons paired with text.danger"
+    },
+    "Warning": {
+      "value": "{Orange.Orange500}",
+      "type": "color",
+      "description": "Use for icons communicating caution/warning, such as those used in warning section messages  or/and icons paired with text.warning"
+    },
+    "Success": {
+      "value": "{Green.Green500}",
+      "type": "color",
+      "description": "Use for icons communicating a favorable outcome, such as those used in success section messaged  or/and icons paired with text.success"
+    },
+    "Accent": {
+      "Action": {
+        "value": "{Purple.Purple100}",
+        "type": "color",
+        "description": "Use for icon-button only backgrounds to communicate neutral CTA"
+      },
+      "Danger": {
+        "value": "{Red.Red100}",
+        "type": "color",
+        "description": "Use for icon-button only backgrounds to communicate critical CTA"
+      },
+      "Warning": {
+        "value": "{Orange.Orange100}",
+        "type": "color",
+        "description": "Use for icon-button only backgrounds to communicate warning/caution CTA"
+      },
+      "Success": {
+        "value": "{Green.Green100}",
+        "type": "color",
+        "description": "Use for icon-button only backgrounds to communicate success/positive CTA"
+      }
+    }
+  }
+}
