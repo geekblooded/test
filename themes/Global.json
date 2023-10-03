@@ -1,7 +1,7 @@
 {
   "fontFamilies": {
-    "space-grotesk": {
-      "value": "Space Grotesk",
+    "Inter": {
+      "value": "Inter",
       "type": "fontFamilies"
     }
   },
